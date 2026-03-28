@@ -1,0 +1,16 @@
+{
+  "name": "sauce-demo-cypress",
+  "version": "1.0.0",
+    "scripts": {
+      "clean": "rimraf cypress/reports",
+      "cypress:run": "npm run clean && npx cypress run --reporter mochawesome --reporter-options reportDir=cypress/reports,overwrite=false,html=true,json=false"
+    },
+  "devDependencies": {
+    "cypress": "^15.13.0",
+    "mocha": "^11.7.5",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^5.1.1",
+    "mochawesome-report-generator": "^6.3.2",
+    "rimraf": "^6.1.3"
+  }
+}

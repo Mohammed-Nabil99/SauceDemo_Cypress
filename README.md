@@ -106,7 +106,7 @@ Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/Mohammed-Nabil99/SauceDemo_Cypress
-cd SauceDemo-Cypress
+cd SauceDemo_Cypress
 npm install
 ```
 
